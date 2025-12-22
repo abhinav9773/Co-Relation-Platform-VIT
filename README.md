@@ -1,16 +1,41 @@
-# React + Vite
+# Co-Relation-Platform-VIT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web platform developed for the **Corporate Relations Cell (CRC)** of **Vellore Institute of Technology (VIT)** to strengthen industry–academia collaboration and facilitate technical partnership initiatives.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## React Compiler
+The Co-Relation Platform serves as a centralized digital interface for organizations and industry partners to explore collaboration opportunities with VIT.  
+It provides structured access to technical collaboration proposals, institutional information, and engagement highlights through a clean, responsive, and professional web interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive, institutional-grade UI
+- Single-page smooth scrolling navigation
+- Hero section with animated slideshow
+- “Partner With Us” section highlighting collaboration avenues
+- Technical Collaboration proposal submission via integrated form
+- Animated statistics section
+- Professional footer with contact details and social links
+- Optimized for deployment on Vercel
+
+---
+
+## 🛠️ Technology Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Animations & Sliders:** Swiper.js
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+### Install dependencies
+```bash
+npm install
