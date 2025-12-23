@@ -31,7 +31,14 @@ const slides = [
 
 export default function Hero() {
   return (
-    <section className="relative h-[90vh] w-full">
+    <section
+      id="home"
+      className="
+        relative
+        h-[80vh] sm:h-[85vh] md:h-[90vh]
+        w-full
+      "
+    >
       <Swiper
         modules={[Navigation, Autoplay, EffectFade]}
         effect="fade"
@@ -43,7 +50,11 @@ export default function Hero() {
         {slides.map((slide, idx) => (
           <SwiperSlide key={idx}>
             <div
-              className="h-[90vh] w-full bg-cover bg-center flex items-center"
+              className="
+                h-full w-full
+                bg-cover bg-center
+                flex items-center
+              "
               style={{
                 backgroundImage: `
                   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
@@ -51,40 +62,70 @@ export default function Hero() {
                 `,
               }}
             >
-              <div className="max-w-7xl mx-auto px-10 text-left text-white">
-                {/* GREEN TAG */}
-                <p className="uppercase tracking-[0.35em] text-sm text-[#8BC34A] mb-6">
+              <div
+                className="
+                  max-w-7xl mx-auto
+                  px-4 sm:px-6 md:px-10
+                  text-white
+                "
+              >
+                {/* TAG */}
+                <p
+                  className="
+                    uppercase
+                    tracking-[0.25em] sm:tracking-[0.35em]
+                    text-[10px] sm:text-xs md:text-sm
+                    text-[#8BC34A]
+                    mb-3 sm:mb-5 md:mb-6
+                  "
+                >
                   {slide.tag}
                 </p>
 
-                {/* MAIN TEXT */}
-                <h1 className="text-5xl md:text-6xl font-bold leading-tight max-w-4xl">
-                  <span className="block !text-white">{slide.title}</span>
-                  <span className="block !text-white">{slide.subtitle}</span>
+                {/* TITLE */}
+                <h1
+                  className="
+                    text-2xl sm:text-3xl md:text-5xl lg:text-6xl
+                    font-bold
+                    leading-tight
+                    max-w-4xl
+                  "
+                >
+                  <span className="block">{slide.title}</span>
+                  <span className="block">{slide.subtitle}</span>
                 </h1>
 
                 {/* DESCRIPTION */}
-                <p className="mt-6 text-lg text-gray-200 max-w-2xl leading-relaxed">
-                  <span className="block text-white">{slide.desc}</span>
+                <p
+                  className="
+                    mt-4 sm:mt-5 md:mt-6
+                    text-xs sm:text-sm md:text-lg
+                    text-gray-200
+                    max-w-2xl
+                    leading-relaxed
+                  "
+                >
+                  {slide.desc}
                 </p>
 
                 {/* CTA */}
-                <div className="mt-10">
+                <div className="mt-6 sm:mt-8 md:mt-10">
                   <a
                     href="#partner"
                     className="
-    inline-block
-    bg-[#8BC34A]
-    text-black
-    px-14 py-3
-    text-sm font-semibold
-    tracking-widest
-    rounded-md
-    shadow-lg
-    hover:bg-[#7bb03e]
-    hover:shadow-xl
-    transition-all duration-200
-  "
+                      inline-block
+                      bg-[#8BC34A]
+                      text-black
+                      px-6 sm:px-10 md:px-14
+                      py-2 sm:py-2.5 md:py-3
+                      text-[10px] sm:text-xs md:text-sm
+                      font-semibold
+                      tracking-widest
+                      rounded-md
+                      shadow-lg
+                      hover:bg-[#7bb03e]
+                      transition-all duration-200
+                    "
                   >
                     Partner With Us
                   </a>

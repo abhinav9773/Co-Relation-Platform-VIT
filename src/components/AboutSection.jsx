@@ -1,8 +1,14 @@
 export default function AboutSection() {
   return (
-    <section className="py-28 bg-[#f7f7f7]">
-      <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-        {/* LEFT: IMAGE */}
+    <section id="about" className="py-20 md:py-28 bg-[#f7f7f7]">
+      <div
+        className="max-w-7xl mx-auto
+                   px-4 sm:px-6 md:px-8
+                   grid grid-cols-1 md:grid-cols-2
+                   gap-12 md:gap-16
+                   items-center"
+      >
+        {/* IMAGE */}
         <div className="overflow-hidden rounded-sm">
           <img
             src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
@@ -11,30 +17,34 @@ export default function AboutSection() {
           />
         </div>
 
-        {/* RIGHT: CONTENT */}
+        {/* CONTENT */}
         <div>
-          <p className="text-sm uppercase tracking-widest text-gray-500">
+          <p className="text-xs sm:text-sm uppercase tracking-widest text-gray-500">
             Welcome to
           </p>
 
-          <h2 className="mt-2 text-4xl font-semibold text-[#8BC34A]">
+          <h2
+            className="mt-2
+                       text-2xl sm:text-3xl md:text-4xl
+                       font-semibold text-[#8BC34A]"
+          >
             Corporate Relations – VIT
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-4 sm:mt-6 text-sm sm:text-base text-gray-700 leading-relaxed">
             Industry–Academia partnerships offer mutually beneficial
             opportunities to create effective solutions to address real-world
             challenges.
           </p>
 
-          <p className="mt-4 text-gray-600 leading-relaxed">
+          <p className="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
             The Corporate Relations Cell at VIT builds and nurtures strategic
             partnerships with industry leaders to foster innovation, research,
             and skill development while creating meaningful learning
             opportunities for students.
           </p>
 
-          <p className="mt-4 text-gray-600 leading-relaxed">
+          <p className="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
             Our objective is to establish long-term, impactful collaborations
             that translate ideas into outcomes and prepare future-ready talent.
           </p>

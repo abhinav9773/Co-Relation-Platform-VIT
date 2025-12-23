@@ -23,17 +23,30 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-[#1f1f1f] text-gray-300">
-        <div className="max-w-7xl mx-auto px-8 py-20">
+      <footer id="contact" className="bg-[#1f1f1f] text-gray-300">
+        <div
+          className="
+            max-w-7xl mx-auto
+            px-4 sm:px-6 md:px-8
+            py-16 sm:py-20
+          "
+        >
           {/* TOP GRID */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+          <div
+            className="
+              grid grid-cols-1
+              sm:grid-cols-2
+              md:grid-cols-3
+              gap-12 sm:gap-16
+            "
+          >
             {/* ABOUT + SOCIAL */}
             <div>
-              <h3 className="text-lg font-semibold text-white">
+              <h3 className="text-base sm:text-lg font-semibold text-white">
                 Corporate Relations Cell
               </h3>
 
-              <p className="mt-4 text-sm leading-relaxed text-gray-400">
+              <p className="mt-4 text-xs sm:text-sm leading-relaxed text-gray-400">
                 The Corporate Relations Cell, VIT facilitates meaningful
                 collaborations between industry, academia, and students to
                 promote innovation, research, and real-world impact.
@@ -46,10 +59,15 @@ export default function Footer() {
                   href="https://www.linkedin.com/school/vellore-institute-of-technology/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-gray-400
-                             hover:text-[#0A66C2] transition"
+                  className="
+                    inline-flex items-center gap-2
+                    text-xs sm:text-sm
+                    text-gray-400
+                    hover:text-[#0A66C2]
+                    transition
+                  "
                 >
-                  {/* Official LinkedIn SVG */}
+                  {/* LinkedIn SVG */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18"
@@ -65,8 +83,13 @@ export default function Footer() {
                 {/* Email */}
                 <a
                   href="mailto:crc@vit.ac.in"
-                  className="inline-flex items-center gap-2 text-sm text-gray-400
-                             hover:text-[#8BC34A] transition"
+                  className="
+                    inline-flex items-center gap-2
+                    text-xs sm:text-sm
+                    text-gray-400
+                    hover:text-[#8BC34A]
+                    transition
+                  "
                 >
                   {/* Envelope SVG */}
                   <svg
@@ -90,9 +113,11 @@ export default function Footer() {
 
             {/* QUICK LINKS */}
             <div>
-              <h3 className="text-lg font-semibold text-white">Quick Links</h3>
+              <h3 className="text-base sm:text-lg font-semibold text-white">
+                Quick Links
+              </h3>
 
-              <ul className="mt-4 space-y-3 text-sm">
+              <ul className="mt-4 space-y-3 text-xs sm:text-sm">
                 {quickLinks.map((link) => (
                   <li key={link.label}>
                     <a
@@ -108,9 +133,11 @@ export default function Footer() {
 
             {/* CONTACT */}
             <div>
-              <h3 className="text-lg font-semibold text-white">Contact Us</h3>
+              <h3 className="text-base sm:text-lg font-semibold text-white">
+                Contact Us
+              </h3>
 
-              <ul className="mt-4 space-y-3 text-sm text-gray-400">
+              <ul className="mt-4 space-y-3 text-xs sm:text-sm text-gray-400">
                 <li>Vellore Institute of Technology</li>
                 <li>Vellore, Tamil Nadu – 632014</li>
                 <li>Email: crc@vit.ac.in</li>
@@ -120,10 +147,10 @@ export default function Footer() {
           </div>
 
           {/* DIVIDER */}
-          <div className="mt-16 border-t border-gray-700" />
+          <div className="mt-12 sm:mt-16 border-t border-gray-700" />
 
           {/* BOTTOM */}
-          <div className="mt-6 text-center text-xs text-gray-500">
+          <div className="mt-6 text-center text-[10px] sm:text-xs text-gray-500">
             © {new Date().getFullYear()} Vellore Institute of Technology. All
             rights reserved.
           </div>
@@ -134,16 +161,20 @@ export default function Footer() {
       {showTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 z-50
-                     w-10 h-10 rounded-full
-                     bg-[#1f1f1f] text-gray-300
-                     flex items-center justify-center
-                     border border-gray-700
-                     hover:bg-[#8BC34A] hover:text-black
-                     transition-all duration-300"
+          className="
+            fixed bottom-4 sm:bottom-6 right-4 sm:right-6
+            z-50
+            w-9 h-9 sm:w-10 sm:h-10
+            rounded-full
+            bg-[#1f1f1f] text-gray-300
+            flex items-center justify-center
+            border border-gray-700
+            hover:bg-[#8BC34A] hover:text-black
+            transition-all duration-300
+          "
           aria-label="Back to top"
         >
-          <ArrowUp size={18} />
+          <ArrowUp size={16} />
         </button>
       )}
     </>
