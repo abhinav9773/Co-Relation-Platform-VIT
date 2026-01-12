@@ -43,6 +43,7 @@ export default function Footer() {
             {/* ABOUT + SOCIAL */}
             <div>
               <h3 className="text-base sm:text-lg font-semibold text-white">
+<<<<<<< HEAD
                 SPORIK Office
               </h3>
 
@@ -51,6 +52,15 @@ export default function Footer() {
                 (SPORIK), VIT facilitates meaningful collaborations between
                 industry, academia, and students to promote innovation,
                 research, and real-world impact.
+=======
+                Corporate Relations Cell
+              </h3>
+
+              <p className="mt-4 text-xs sm:text-sm leading-relaxed text-gray-400">
+                The Corporate Relations Cell, VIT facilitates meaningful
+                collaborations between industry, academia, and students to
+                promote innovation, research, and real-world impact.
+>>>>>>> 14c37a2ed5a2d198b2871f6d70be3e61fb18166f
               </p>
 
               {/* SOCIAL LINKS */}

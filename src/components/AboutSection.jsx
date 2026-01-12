@@ -38,10 +38,17 @@ export default function AboutSection() {
           </p>
 
           <p className="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
+<<<<<<< HEAD
             The Office of Sponsored Research and Industrial Consultancy (SPORIK)
             at VIT builds and nurtures strategic partnerships with industry
             leaders to foster innovation, research, and skill development while
             creating meaningful learning opportunities for students.
+=======
+            The Corporate Relations Cell at VIT builds and nurtures strategic
+            partnerships with industry leaders to foster innovation, research,
+            and skill development while creating meaningful learning
+            opportunities for students.
+>>>>>>> 14c37a2ed5a2d198b2871f6d70be3e61fb18166f
           </p>
 
           <p className="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
