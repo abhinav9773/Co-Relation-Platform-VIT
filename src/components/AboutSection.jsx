@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 md:py-28 bg-[#f7f7f7]">
+    <section id="about" className="py-20 md:py-28 bg-[#ffffff]">
       <div
         className="max-w-7xl mx-auto
                    px-4 sm:px-6 md:px-8
@@ -11,7 +11,7 @@ export default function AboutSection() {
         {/* IMAGE */}
         <div className="overflow-hidden rounded-sm">
           <img
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+            src="/images/about.png"
             alt="Industry Academia Collaboration"
             className="w-full h-full object-cover"
           />

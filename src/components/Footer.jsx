@@ -57,7 +57,7 @@ export default function Footer() {
               <div className="mt-6 flex flex-col gap-4">
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/school/vellore-institute-of-technology/"
+                  href="https://www.linkedin.com/in/sponsored-research-and-industrial-consultancy-vit-vellore-b586583a4/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
@@ -83,7 +83,7 @@ export default function Footer() {
 
                 {/* Email */}
                 <a
-                  href="mailto:crc@vit.ac.in"
+                  href="mailto:director.sr@vit.ac.in"
                   className="
                     inline-flex items-center gap-2
                     text-xs sm:text-sm
@@ -107,7 +107,7 @@ export default function Footer() {
                     <rect x="2" y="4" width="20" height="16" rx="2" />
                     <path d="M22 6 12 13 2 6" />
                   </svg>
-                  crc@vit.ac.in
+                  director.sr@vit.ac.in
                 </a>
               </div>
             </div>
@@ -141,8 +141,8 @@ export default function Footer() {
               <ul className="mt-4 space-y-3 text-xs sm:text-sm text-gray-400">
                 <li>Vellore Institute of Technology</li>
                 <li>Vellore, Tamil Nadu – 632014</li>
-                <li>Email: crc@vit.ac.in</li>
-                <li>Phone: +91-XXXXXXXXXX</li>
+                <li>Email: director.sr@vit.ac.in</li>
+                <li>Phone: 04162202107</li>
               </ul>
             </div>
           </div>
