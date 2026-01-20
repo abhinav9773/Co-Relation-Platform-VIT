@@ -38,7 +38,7 @@ export default function AboutSection() {
           </p>
 
           <p className="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
-            The Office of Sponsored Research and Industrial Consultancy (SPORIK)
+            The Office of Sponsored Research and Industrial Consultancy (SpoRIC)
             at VIT builds and nurtures strategic partnerships with industry
             leaders to foster innovation, research, and skill development while
             creating meaningful learning opportunities for students.
