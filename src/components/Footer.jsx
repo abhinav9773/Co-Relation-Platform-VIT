@@ -48,7 +48,7 @@ export default function Footer() {
 
               <p className="mt-4 text-xs sm:text-sm leading-relaxed text-gray-400">
                 The Office of Sponsored Research and Industrial Consultancy
-                (SPORIK), VIT facilitates meaningful collaborations between
+                (SpoRIC), VIT facilitates meaningful collaborations between
                 industry, academia, and students to promote innovation,
                 research, and real-world impact.
               </p>
